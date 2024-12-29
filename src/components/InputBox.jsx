@@ -17,13 +17,13 @@ function InputBox({
       <div className="w-1/2">
         <label
           htmlFor={amountInputId}
-          className="text-white-400 font-serif text-xl mb-2 inline-block"
+          className="text-white font-serif text-xl mb-2 inline-block"
         >
           {label}
         </label>
         <input
           id={amountInputId}
-          className="outline-none w-full bg-transparent py-1.5 text-2xl"
+          className="outline-none w-full bg-transparent text-white py-1.5 text-2xl"
           type="number"
           placeholder="Amount"
           disabled={amountDisable}

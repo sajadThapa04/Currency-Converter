@@ -38,7 +38,7 @@ function App() {
       }}
     >
       <div className="w-full">
-      <h1 className="bg-black/70 p-4 rounded-lg text-violet/85 font-serif font-semibold  text-3xl mb-7">Currency Converter</h1>
+      <h1 className="bg-black/70 p-4 rounded-lg text-white/85 font-serif font-semibold  text-3xl mb-7">Currency Converter</h1>
 
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
