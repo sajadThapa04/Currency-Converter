@@ -24,7 +24,7 @@ function App() {
 
   const convert = () => {
     if (currencyInfo[to]) {
-      setConvertedAmount(Math.floor(amount * currencyInfo[to]));
+      setConvertedAmount((amount * currencyInfo[to]).toFixed(4));
     } else {
       console.warn("Conversion rate not available for the selected currency.");
     }
